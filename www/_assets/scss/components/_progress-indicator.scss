@@ -1,0 +1,77 @@
+
+.progress-indicator {
+  margin-bottom: 30px;
+  ol,
+  ul {
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-color: $grey-2;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    &:after {
+      clear: both;
+      content: "";
+      display: table;
+    }
+  }
+  li {
+    color: $grey-1;
+    padding: 12px 0 5px 0;
+    @media screen and (max-width: 640px) {
+      margin-bottom: 0;
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+  .active {
+    border-bottom: 5px solid $black;
+    color: $black;
+    a {
+      color: $black;
+      text-decoration: none;
+    }
+  }
+}
+
+.progress-indicator-horizontal {
+  li {
+    display: none;
+  }
+  .active {
+    display: block;
+  }
+  @include media(tablet) {
+    li {
+      display: block;
+      float: left;
+      margin-right: 30px;
+    }
+    .active {
+      margin-bottom: -5px;
+    }
+  }
+}
+
+.progress-indicator-vertical {
+  span {
+    float: right;
+  }
+  @include media(tablet) {
+    width: 50%;
+  }
+}
+
+.saving-prompt {
+  background: $success-colour;
+  border-bottom: 3px solid darken($success-colour, 10%);
+  color: white;
+  opacity: 0.9;
+  position: fixed;
+  bottom: 0; right: 30px;
+  padding: 10px $gutter-half;
+  @media screen and (max-width: 640px) {
+    right: 0;
+  }
+}

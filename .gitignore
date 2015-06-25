@@ -1,0 +1,11 @@
+/_beta-sln
+/_alpha-sln
+/.sass-cache
+node_modules/*
+*.DS_Store
+www/*.html
+www/employer/*.html
+www/trainee/*.html
+www/apprentice/*.html
+*.map
+*.glue

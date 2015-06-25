@@ -1,0 +1,28 @@
+{
+	"url": "http://0.0.0.0:7000",
+	"url_production": "http://0.0.0.0:7000",
+	"folders":
+	[
+		{
+			"path": ".",
+			"file_exclude_patterns": [
+				".editorconfig",
+				".*.cache",
+				// "*.sublime-*",
+				// ".gitignore",
+				"terminal.glue"
+			],
+			// "folder_exclude_patterns": [""],
+		},
+		{
+			// "path": "./prototype",
+		},
+		{
+			// "path": "./www",
+		}
+	],
+	"settings":
+	{
+		"glue_userpath": "."
+	}
+}

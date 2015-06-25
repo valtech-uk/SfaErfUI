@@ -9,3 +9,4 @@ www/trainee/*.html
 www/apprentice/*.html
 *.map
 *.glue
+*.sublime-workspace

@@ -16,3 +16,4 @@ Work inside `www/` folder. Edit `*.scss` or `*.hbs` files.
 - Use `grunt proto` to generete static prototype.
 - Use `grunt alpha` to copy static assets in Alpha repository
 
+TFS diff test

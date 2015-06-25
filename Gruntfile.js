@@ -118,7 +118,7 @@ module.exports = function(grunt) {
       },
       alpha: {
         files: [
-          {cwd: 'prototype/_assets/', src: ['**/*'], dest: '_alpha-sln/Alpha/some_folder/_assets/'}
+          {cwd: 'prototype/_assets/', src: ['**/*'], dest: '_alpha-sln/'}
 
         ],
         options: {

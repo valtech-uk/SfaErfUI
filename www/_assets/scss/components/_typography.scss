@@ -393,3 +393,11 @@ strong {
 .closing-soon {
   color: $warning-colour;
 }
+
+
+
+
+.get-started + article {
+  padding-top: 30px;
+  border-top: 10px solid $mellow-red;
+}

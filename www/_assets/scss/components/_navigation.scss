@@ -237,3 +237,23 @@
   }
 }
 
+// 
+// 
+.related {
+  border-top: 10px solid $govuk-blue;
+  padding-top: 5px;
+}
+
+.related-section {
+  [role="navigation"] {
+    @include copy-16;
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li {
+        margin: 0;
+      }
+    }
+  }
+}

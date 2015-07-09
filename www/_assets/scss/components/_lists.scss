@@ -172,6 +172,7 @@ ol, ul {
   }
 }
 
+
 .heading-with-check {
   padding-left: 1.7em;
   position: relative;
@@ -179,4 +180,68 @@ ol, ul {
     top: 0.12em; left: 0;
     position: absolute;
   }
+}
+
+
+.step-by-step-coloured {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 15px;
+  li {
+    margin: 0;
+    padding: 0 0 15px 30px;
+    border-color: $govuk-blue;
+    border-width: 0 0 0 10px;
+    border-style: dotted;
+    position: relative;
+    &:after {
+      content: '';
+      display: block;
+      width: 30px;
+      height: 0;
+      top: 0;
+      left: -20px;
+      position: absolute;
+      border-color: inherit;
+      border-width: 10px 0 0 0;
+      border-style: dashed;
+    }
+    &:last-child {
+      border-style: none;
+      margin-left: 10px;
+    }
+    &:first-child,
+    &:last-child {
+      &:after {
+        width: 50px;
+        height: 50px;
+        background: #fff;
+        top: -10px;
+        left: -30px;
+        position: absolute;
+        border-color: inherit;
+        border-width: 10px;
+        border-style: solid;
+        border-radius: 30px;
+      }
+    }
+    &:nth-child( 1 ) {
+      border-color: $govuk-blue;
+    }
+    &:nth-child( 2 ) {
+      border-color: $purple;
+    }
+    &:nth-child( 3 ) {
+      border-color: $mellow-red;
+    }
+    &:nth-child( 4 ) {
+      border-color: $orange;
+    }
+    &:nth-child( 5 ) {
+      border-color: $yellow;
+    }
+    &:nth-child( 6 ) {
+      border-color: $grass-green;
+    }
+ }
 }

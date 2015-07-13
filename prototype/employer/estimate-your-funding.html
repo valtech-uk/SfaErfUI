@@ -110,30 +110,31 @@
         <div class="grid-wrapper">
           <main role="main" class="grid grid-2-3">
             <header>
-              <h1 class="heading-xlarge">Estimate your funding</h1>
-              <p>Find out how much funding you're entitled to by searching for your
-                apprentice below.</p>
+              <h1 class="heading-xlarge">Employ an apprentice</h1>
             </header>
             <article>
               <form id="standardSearchForm" method="GET" action="/employer/search-mid-results.html">
-                <fieldset>
+                <fieldset class="fieldset-with-border">
+                  <label class="heading-large">Estimate your funding</label>
+                  <p>Find out how much funding you're entitled to by searching for
+                    your apprentice below.</p>
                   <div class="form-group">
                     <label class="heading-small" for="Keywords">Which job title would your apprentice have?</label>
-                    <p class="font-xsmall">Different apprenticeship standards are funded differently</p>
+                    <span class="form-hint" id="StandardHint">Different apprenticeship standards are funded differently</span>
                     <input autofocus="autofocus" class="form-control" data-val="true" data-val-regex="'Keywords' contains some invalid characters"
                     data-val-regex-pattern="^[a-zA-Z]+$" id="Standard" name="Standard"
                     type="text" value="">
                   </div>
                   <div class="form-group">
                     <label class="heading-small" for="Postcode">What is your businesses postcode?</label>
-                    <p class="font-xsmall">We will help you find providers close to your area</p>
+                    <span class="form-hint" id="PostcodeHint">We will help you find providers close to your area</span>
                     <input autofocus="" class="form-control" data-val="true" data-val-regex="'Keywords' contains some invalid characters"
                     data-val-regex-pattern="^[a-zA-Z0-9]+$" id="Postcode" name="Postcode"
                     type="text" value="">
                   </div>
                   <div class="form-group">
                     <label class="heading-small" for="Size">Do you have 50 or more employees?</label>
-                    <p class="font-xsmall">Small businesses are entitled to more funding</p>
+                    <span class="form-hint" id="SizeAbove50Hint">Small businesses are entitled to more funding</span>
                     <label for="SizeAbove50Yes" class="block-label">
                       <input type="radio" name="SizeAbove50" value="1" id="SizeAbove50Yes"
                       />Yes</label>
@@ -145,7 +146,7 @@
                   </div>
                   <div class="form-group">
                     <label class="heading-small" for="ApprenticeAge">Do you consider apprentice under 18 years old?</label>
-                    <p class="font-xsmall">Hiring younger apprentice may mean more funding</p>
+                    <span class="form-hint" id="ApprenticeAgeHint">Hiring younger apprentice may mean more funding</span>
                     <label for="ApprenticeAgeUnder18Yes" class="block-label">
                       <input type="radio" name="ApprenticeAgeUnder18" value="1" id="ApprenticeAgeUnder18Yes"
                       />Yes</label>
@@ -156,10 +157,8 @@
                       <input type="radio" name="ApprenticeAgeUnder18" value="" id="ApprenticeAgeUnder18NotSure"
                       />Not sure</label>
                   </div>
-                  <div class="get-started">
-                    <button type="submit" class="button">Estimate your funding</button>
-                  </div>
                 </fieldset>
+                <button type="submit" class="button">Estimate your funding</button>
               </form>
             </article>
           </main>

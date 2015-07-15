@@ -9,15 +9,20 @@ tabTitle: Estimate your funding - Employ an apprentice
 			<h1 class="heading-xlarge">Search for a standard</h1>
 		</header>
 		<article>
+			<p>Find out how much funding you're entitled to by searching for your apprentice below.</p>
 			<form id="standardSearchForm" method="GET" action="/employer/search-mid-results.html">
 				<fieldset class="fieldset-with-border">
-					<p>Find out how much funding you're entitled to by searching for your apprentice below.</p>
 					<div class="form-group">
     					<label class="heading-small" for="Keywords">Which job title would your apprentice have?</label>
     					<span class="form-hint" id="StandardHint">Different apprenticeship standards are funded differently</span>
 						
-						<input  autofocus="autofocus" class="form-control" data-val="true" data-val-regex="'Keywords' contains some invalid characters" data-val-regex-pattern="^[a-zA-Z]+$" id="Standard" name="Standard" type="text" value="">
+						<input placeholder="Job title" autofocus="autofocus" class="form-control" data-val="true" data-val-regex="'Keywords' contains some invalid characters" data-val-regex-pattern="^[\w\s]+$" id="Standard" name="Standard" type="text" value="">
 					</div>
+				</fieldset>
+
+				<fieldset class="fieldset-with-border">
+					<legend class="heading-medium">Your business details</legend>
+					<p>Cras mattis consectetur purus sit amet fermentum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
 					<div class="form-group">
     					<label class="heading-small" for="Postcode">What is your businesses postcode?</label>
     					<span class="form-hint" id="PostcodeHint">We will help you find providers close to your area</span>
@@ -42,7 +47,7 @@ tabTitle: Estimate your funding - Employ an apprentice
 
 					</div>
 				</fieldset>
-				<button type="submit" class="button">Estimate your funding</button>
+				<button type="submit" class="button">Search for a standard</button>
 			</form>
 		</article>
   	</main>

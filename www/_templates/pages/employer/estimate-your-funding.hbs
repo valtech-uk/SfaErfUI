@@ -9,23 +9,12 @@ tabTitle: Estimate your funding - Employ an apprentice
 			<h1 class="heading-xlarge">Search for a standard</h1>
 		</header>
 		<article>
-			<p>Find out how much funding you're entitled to by searching for your apprentice below.</p>
-			<form id="standardSearchForm" method="GET" action="/employer/search-mid-results.html">
-				<fieldset class="fieldset-with-border">
-					<div class="form-group">
-    					<label class="heading-small" for="Keywords">Which job title would your apprentice have?</label>
-    					<span class="form-hint" id="StandardHint">Different apprenticeship standards are funded differently</span>
-
-						<input autofocus="autofocus" class="form-control" data-val="true" data-val-regex="'Keywords' contains some invalid characters" data-val-regex-pattern="^[\w\s]+$" id="Standard" name="Standard" type="text" value="">
-					</div>
-				</fieldset>
-
-				<fieldset class="fieldset-with-border">
+			<form id="standardSearchForm" method="GET" action="/employer/estimate-your-funding-step2.html">
+				<fieldset class="">
 					<legend class="heading-medium">Your business details</legend>
-					<p>Cras mattis consectetur purus sit amet fermentum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
 					<div class="form-group">
-    					<label class="heading-small" for="Postcode">What is your businesses postcode?</label>
-    					<span class="form-hint" id="PostcodeHint">We will help you find providers close to your area</span>
+    					<label class="heading-small" for="Postcode">What is your organisation's postcode?</label>
+    					<span class="form-hint" id="PostcodeHint">We'll find providers close to where you're based</span>
 
 						<input autofocus="" class="form-control" data-val="true" data-val-regex="'Keywords' contains some invalid characters" data-val-regex-pattern="^[a-zA-Z0-9]+$" id="Postcode" name="Postcode" type="text" value="">
 					</div>
@@ -38,8 +27,8 @@ tabTitle: Estimate your funding - Employ an apprentice
 
 					</div>
 					<div class="form-group">
-    					<label class="heading-small" for="ApprenticeAge">Do you consider apprentice under 18 years old?</label>
-    					<span class="form-hint" id="ApprenticeAgeHint">Hiring younger apprentice may mean more funding</span>
+    					<label class="heading-small" for="ApprenticeAge">Is your apprentice under 18?</label>
+    					<span class="form-hint" id="ApprenticeAgeHint">Hiring younger apprentices may mean more funding</span>
 
 					    <label for="ApprenticeAgeUnder18Yes" class="block-label"> <input type="radio" name="ApprenticeAgeUnder18" value="1" id="ApprenticeAgeUnder18Yes" /> Yes</label>
 					    <label for="ApprenticeAgeUnder18No" class="block-label"> <input type="radio" name="ApprenticeAgeUnder18" value="0" id="ApprenticeAgeUnder18No" />No</label>
@@ -47,7 +36,7 @@ tabTitle: Estimate your funding - Employ an apprentice
 
 					</div>
 				</fieldset>
-				<button type="submit" class="button">Search for a standard</button>
+				<button type="submit" class="button">Next</button>
 			</form>
 		</article>
   	</main>

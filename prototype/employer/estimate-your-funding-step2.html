@@ -113,43 +113,50 @@
               <h1 class="heading-xlarge">Search for a standard</h1>
             </header>
             <article>
-              <form id="standardSearchForm" method="GET" action="/employer/estimate-your-funding-step2.html">
+              <p>Find out how much funding you're entitled to by searching for your
+                apprentice below.</p>
+              <section class="section-border">
+                <details>
+                  <summary>How to choose a standard</summary>
+                  <div class="panel-indent" id="helpText" role="region" aria-hidden="false">
+                    <p>Standards show what apprentices will learn during their apprenticeships.</p>
+                    <section>
+                      <h3 class="heading-medium">How standards are delivered</h3>
+                      <p>Training providers teach the skills listed in standards.</p>
+                      <p>You don’t have to choose a local provider. Many of them offer
+                        distance learning.</p>
+                      <p>Sometimes providers will come to you to train your apprentice.
+                        At other times your apprentice will travel to them.</p>
+                      <p><a href="#Standard">Find a training provider</a>
+                      </p>
+                    </section>
+                    <section>
+                      <h3 class="heading-medium">What can you deliver yourself?</h3>
+                      <p>You can carry out training yourself, but it could affect
+                        your funding.</p>
+                      <p>You can also assess your apprentice in-house, but you must:</p>
+                      <ul class="list-bullet">
+                        <li>do it impartially</li>
+                        <li>involve a third party</li>
+                        <li>provide supporting evidence like employee records</li>
+                      </ul>
+                    </section>
+                  </div>
+                </details>
+              </section>
+              <form id="standardSearchForm" method="GET" action="/employer/search-mid-results.html">
                 <fieldset class="">
-                  <legend class="heading-medium">Your business details</legend>
-                  <div class="form-group">
-                    <label class="heading-small" for="Postcode">What is your organisation's postcode?</label>
-                    <span class="form-hint" id="PostcodeHint">We'll find providers close to where you're based</span>
-                    <input autofocus="" class="form-control" data-val="true" data-val-regex="'Keywords' contains some invalid characters"
-                    data-val-regex-pattern="^[a-zA-Z0-9]+$" id="Postcode" name="Postcode"
+                  <div class="form-group section-border">
+                    <label class="heading-small" for="Keywords">Which job title would your apprentice have?</label>
+                    <span class="form-hint" id="StandardHint">eg. <em>"carpenter"</em> or <em>"engineer"</em>.</span>
+                    <input autofocus="autofocus" class="form-control" data-val="true" data-val-regex="'Keywords' contains some invalid characters"
+                    data-val-regex-pattern="^[\w\s]+$" id="Standard" name="Standard"
                     type="text" value="">
-                  </div>
-                  <div class="form-group">
-                    <label class="heading-small" for="Size">Do you have 50 or more employees?</label>
-                    <span class="form-hint" id="SizeAbove50Hint">Small businesses are entitled to more funding</span>
-                    <label for="SizeAbove50Yes" class="block-label">
-                      <input type="radio" name="SizeAbove50" value="1" id="SizeAbove50Yes"
-                      />Yes</label>
-                    </li>
-                    <label for="SizeAbove50No" class="block-label">
-                      <input type="radio" name="SizeAbove50" value="0" id="SizeAbove50No"
-                      />No</label>
-                    </li>
-                  </div>
-                  <div class="form-group">
-                    <label class="heading-small" for="ApprenticeAge">Is your apprentice under 18?</label>
-                    <span class="form-hint" id="ApprenticeAgeHint">Hiring younger apprentices may mean more funding</span>
-                    <label for="ApprenticeAgeUnder18Yes" class="block-label">
-                      <input type="radio" name="ApprenticeAgeUnder18" value="1" id="ApprenticeAgeUnder18Yes"
-                      />Yes</label>
-                    <label for="ApprenticeAgeUnder18No" class="block-label">
-                      <input type="radio" name="ApprenticeAgeUnder18" value="0" id="ApprenticeAgeUnder18No"
-                      />No</label>
-                    <label for="ApprenticeAgeUnder18NotSure" class="block-label">
-                      <input type="radio" name="ApprenticeAgeUnder18" value="" id="ApprenticeAgeUnder18NotSure"
-                      />Not sure</label>
+                    <p><a href="#">Browse by industry / sector</a>
+                    </p>
                   </div>
                 </fieldset>
-                <button type="submit" class="button">Next</button>
+                <button type="submit" class="button">Search for a standard</button>
               </form>
             </article>
           </main>

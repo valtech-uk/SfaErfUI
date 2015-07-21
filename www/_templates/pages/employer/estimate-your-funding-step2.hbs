@@ -1,0 +1,68 @@
+---
+headerTitle: Employ an apprentice
+tabTitle: Estimate your funding - Employ an apprentice
+---
+
+<div class="grid-wrapper">
+  	<main role="main" class="grid grid-2-3">
+		<header>
+			<h1 class="heading-xlarge">Search for a standard</h1>
+		</header>
+		<article>
+			<p>Find out how much funding you're entitled to by searching for your apprentice below.</p>
+
+            <section class="section-border">
+                <details>
+                    <summary>How to choose a standard</summary>
+                    <div class="panel-indent" id="helpText" role="region" aria-hidden="false">
+                        <p>Standards show what apprentices will learn during their apprenticeships.</p>
+
+                        <section>
+                            <h3 class="heading-medium">How standards are delivered</h3>
+
+                            <p>Training providers teach the skills listed in standards.</p>
+
+                            <p>You don’t have to choose a local provider. Many of them offer distance learning.</p>
+
+                            <p>Sometimes providers will come to you to train your apprentice. At other times your apprentice will travel to them.</p>
+
+                            <p><a href="#Standard">Find a training provider</a></p>
+                        </section>
+
+                        <section>
+                            <h3 class="heading-medium">What can you deliver yourself?</h3>
+
+                            <p>You can carry out training yourself, but it could affect your funding.</p>
+
+                            <p>You can also assess your apprentice in-house, but you must:</p>
+                            <ul class="list-bullet">
+                                <li>do it impartially</li>
+                                <li>involve a third party</li>
+                                <li>provide supporting evidence like employee records</li>
+                            </ul>
+                        </section>
+                    </div>
+
+                </details>
+            </section>
+
+			<form id="standardSearchForm" method="GET" action="/employer/search-mid-results.html">
+				<fieldset class="">
+					<div class="form-group section-border">
+    					<label class="heading-small" for="Keywords">Which job title would your apprentice have?</label>
+    					<span class="form-hint" id="StandardHint">eg. <em>"carpenter"</em> or <em>"engineer"</em>.</span>
+						<input autofocus="autofocus" class="form-control" data-val="true" data-val-regex="'Keywords' contains some invalid characters" data-val-regex-pattern="^[\w\s]+$" id="Standard" name="Standard" type="text" value="">
+                        <p><a href="#">Browse by industry / sector</a></p>
+					</div>
+
+				</fieldset>
+				<button type="submit" class="button">Search for a standard</button>
+			</form>
+		</article>
+  	</main>
+  	<div class="related-container grid grid-1-3">
+		<div class="related">
+	  		{{> info-links}}
+  		</div>
+  	</div>
+</div>

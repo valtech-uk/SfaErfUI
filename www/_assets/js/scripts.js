@@ -10,6 +10,13 @@ google.load('visualization', '1.0', {'packages':['corechart']});
         console.log( 'BOOM!' );
 
         // var dataSets = [];
+        //
+        var formatter = new google.visualization.NumberFormat({
+            decimalSymbol: '.',
+            groupingSymbol: ',',
+            negativeParens: true,
+            pattern: '£######'
+        });
         var $fundingBreakdowns = $('.fundingBreakdown');
         console.log( $fundingBreakdowns );
         var $charts = new Array( $fundingBreakdowns.length );
@@ -25,7 +32,8 @@ google.load('visualization', '1.0', {'packages':['corechart']});
             pieHole: 0.5,
             pieSliceTextStyle: {
                 color: 'white',
-                fontSize: '16'
+                bold: true,
+                fontSize: 18
             },
             chartArea: {
                 backgroundColor: '#ccc',
@@ -35,6 +43,7 @@ google.load('visualization', '1.0', {'packages':['corechart']});
                 top: 20
             },
             tooltip: { trigger: 'none' },
+            pieSliceBorderColor: '#a1acb2',
             slices: [
                 {
                     color: '#a1acb2',
@@ -49,7 +58,8 @@ google.load('visualization', '1.0', {'packages':['corechart']});
         for ( var i = 0; i < $charts.length; i++  ) {
             $fundingBreakdowns[ i ].text = '';
             $charts[ i ] = new google.visualization.PieChart( $fundingBreakdowns[ i ]  );
-            var data = new google.visualization.arrayToDataTable( [ [ 'who', 'how much' ], [ 'you', 2000 ], [ 'gvt', 4000 ] ] );
+            var data = new google.visualization.arrayToDataTable( [ [ 'who', 'how much' ], [ 'you', 2000 ], [ 'gvt', 8000 ] ] );
+            formatter.format(data, 1);
             $charts[ i ].draw(
                 data,
                 options

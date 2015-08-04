@@ -1,0 +1,175 @@
+---
+headerTitle: Employ an apprentice
+tabTitle: Apprenticeships in legal services - Employ an apprentice
+---
+
+{{!-- DIRTY HACK TO REMOVE ASAP!!! --}}
+
+<script>
+	urlParam = function(name){
+	    var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+	    if (results==null){
+	       return null;
+	    }
+	    else{
+	       return results[1] || 0;
+	    }
+	}
+	$(function() {
+		var $step1 = $('#viewProvidersStep1'),
+			$step2 = $('#viewProvidersStep2');
+		if( urlParam("Postcode") ) {
+			$step1.hide();
+			$step2.show();
+		} else {
+			$step2.hide();
+			$step1.show();
+		}
+	});
+</script>
+<style>
+	#viewProvidersStep1 {
+		display: none;
+	}
+	#viewProvidersStep2 {
+		display: none;
+	}
+</style>
+
+<div class="grid-wrapper">
+  	<main role="main" class="grid grid-3-3">
+		<header class="hgroup-large section-border">
+			<h2 class="heading-large">Apprenticeships in legal services</h2>
+			<p class="font-xsmall"><a href="/employer/estimate-your-funding-step2.html">&laquo; Back to list</a></p>
+		</header>
+
+		<article>
+	        <header>
+	            <h3 class="heading-large"><a href="/employer/search-results-apprenticeship-details.html">Paralegal</a></h3>
+	        </header>
+	        <section class="grid-wrapper section-border">
+	            <section class="grid grid-2-3 standard-parameters">
+	            	<section>
+	                    <p class="no-btm-margin">
+	                        Level:
+	                        <strong>3</strong>
+	                        <em>(equivalent to A Level)</em>
+	                    </p>
+	                    <p class="no-btm-margin">
+	                        Length:
+	                        <strong>2 years</strong>
+	                    </p>
+	                    <p class="no-btm-margin">
+	                        Average salary:
+	                        <strong>&pound;14,000</strong> per annum
+	                    </p>
+	                    <p class="no-btm-margin">
+	                        Estimated costs:
+	                        <strong>&pound;27,000</strong> over 2 years
+	                    </p>
+					</section>
+					<section class="panel-indent">
+						<p><a href="#">Download full details (PDF, 268KB)</a>.</p>
+					</section>
+	            </section>
+	            <section class="grid grid-1-3 standard-cta">
+					<div id="viewProvidersStep1">
+		            	<h3 class="heading-medium">Find training providers</h3>
+						<form method="GET" action="../employer/search-results-apprenticeship-details.html">
+							<fieldset class="">
+								<div class="form-group">
+			    					<label class="heading-small" for="Postcode">Postcode?</label>
+			    					<span class="form-hint" id="PostcodeHint">We'll find providers close to where you're based</span>
+
+									<input autofocus="" class="form-control" data-val="true" data-val-regex="'Keywords' contains some invalid characters" data-val-regex-pattern="^[a-zA-Z0-9]+$" id="Postcode" name="Postcode" type="text" value="">
+								</div>
+		                        <button type="submit" class="button">Search</button>
+							</fieldset>
+						</form>
+					</div>
+					<div id="viewProvidersStep2">
+		            	<h3 class="heading-medium">Training providers</h3>
+						<p>There are <strong>11</strong> training providers near <a href="../employer/search-results-apprenticeship-details.html">N13 5PP</a></p>
+		                <a href="../employer/search-results-apprenticeship-standard-providers.html" class="button float-right-wrap">View</a>
+					</div>
+	            </section>
+	        </section>
+	      	<section>
+				<section id="description">
+					<h3 class="heading-medium">What does an actuarial technician do?</h3>
+					<p>Actuarial technicians use statistics to predict how the finances of people and businesses will change. They carry out a number of jobs, from setting car insurance premiums to helping customers plan for retirement.</p>
+					<p>They might be asked to:</p>
+					<ul class="list-bullet">
+						<li>check figures to make sure they’re accurate</li>
+						<li>create spreadsheets and data models for reports</li>
+						<li>understand hot topics that affect the industry</li>
+						<li>support other members of the actuarial team</li>
+						<li>test and develop new systems</li>
+					</ul>
+				</section>
+
+				<section id="required-skills">
+					<h3 class="heading-medium">What skills do actuarial technicians need?</h3>
+					<p>Actuarial technicians need to be comfortable:</p>
+					<ul class="list-bullet">
+						<li>working with numbers</li>
+						<li>meeting tight deadlines</li>
+						<li>earning to use software quickly</li>
+						<li>thinking logically</li>
+						<li>dealing with clients</li>
+						<li>paying attention to details</li>
+					</ul>
+				</section>
+
+
+				<section id="apprenticeship-involves">
+					<h3 class="heading-medium">What does the apprenticeship involve?</h3>
+					<p>Apprentices work with teams of actuaries to build mathematical models.</p>
+					<p>The programme is built around on-the-job training, but also involves studying for professional exams. It’s the start of a career in the industry.</p>
+					<section class="panel-indent">
+						<p><a href="#">Apprenticeship pay and holidays</a>.</p>
+					</section>
+				</section>
+
+
+				<section id="entry-requirements">
+					<h3 class="heading-medium">What are the entry requirements?</h3>
+					<p>Employers can choose their own entry requirements.</p>
+				</section>
+
+
+				<section id="skills-apprentices-learn">
+					<h3 class="heading-medium">What skills will apprentices learn?</h3>
+					<p>Apprentices will learn skills including:</p>
+					<ul class="list-bullet">
+						<li>how actuarial software, technology and tools can be used</li>
+						<li>the structure of the financial services market</li>
+						<li>the industry’s professional requirements</li>
+					</ul>
+					<section class="panel-indent" class="section-border">
+						<p>For a full list <a href="#">download the standard (PDF, 268KB)</a>.</p>
+					</section>
+				</section>
+
+
+				<section id="english-and-math-requirements">
+					<h3 class="heading-medium">What are the English and maths requirements?</h3>
+					<p>Apprentices must have passed Level 2 English and maths before their final assessment, if they don’t have the qualifications already.</p>
+				</section>
+
+				<section id="timeframe">
+					<h3 class="heading-medium">How long does the apprenticeship last?</h3>
+					<p>The apprenticeship usually takes <strong>2-3 years</strong>.</p>
+				</section>
+
+				<section id="qualifications">
+					<h3 class="heading-medium">What qualifications does the apprenticeship lead to?</h3>
+					<p>This is a <a href="#">level 4 apprenticeship.</a></p>
+					<p>Apprentices who complete it also become members of the Institute and Faculty of Actuaries.</p>
+				</section>
+	      	</section>
+		</article>
+  	</main>
+</div>
+
+

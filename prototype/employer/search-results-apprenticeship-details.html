@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-GB" class="no-js not-ie8">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Apprenticeships in legal services - Employ an apprentice</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <!--[if gt IE 8]><!-->
+    <link href="../_assets/css/main.css" media="all" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+    <!--[if lte IE 8]><link href="../_assets/css/main-ie8.css" media="all" rel="stylesheet" type="text/css"><![endif]-->
+    <!--[if lte IE 8]>
+    <link href="../_assets/css/fonts-ie8.css" media="all" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <!--[if gte IE 9]><!-->
+    <link href="../_assets/css/fonts.css" media="all" rel="stylesheet" type="text/css"
+    />
+    <!--<![endif]-->
+    <link rel="shortcut icon" href="../_assets/img/favicon.ico" type="image/x-icon">
+    <link href="../_assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet"
+    type="text/css">
+    <script>
+    var html = document.documentElement;
+    html.className += " js-enabled";
+    if (!('open' in document.createElement('details')))
+    {
+      document.documentElement.className += ' no-details';
+    }
+    </script>
+    <!--[if lte IE 8]>
+    <script>
+      var head = document.getElementsByTagName('head')[0],
+      style = document.createElement('style');
+      style.type = 'text/css';
+      style.styleSheet.cssText = ':before,:after{content:none !important';
+      head.appendChild(style);
+      setTimeout(function(){
+          head.removeChild(style);
+      }, 0);
+    </script>
+  <![endif]-->
+    <script src="../_assets/js/vendor/modernizr-custom.js"></script>
+    <script src="../_assets/js/vendor/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  </head>
+  <body>
+    <!-- <div id="global-cookie-message" class="cookie-banner">
+  <div class="content-container">
+      <span class="copy-16">GOV.UK uses cookies to make the site simpler. <a href="#">Find out more about cookies</a></span>
+  </div>
+</div> -->
+    <div class="skiplink-container">
+      <div>
+        <a href="#main" class="skiplink">Skip to main content</a>
+      </div>
+    </div>
+    <header role="banner" class="global-header">
+      <div class="global-header__wrapper">
+        <div class="global-header__logo">
+          <a href="http://gov.uk" title="Go to the GOV.UK homepage" class="govuk-logo">
+            <img src="../_assets/img/gov.uk_logotype_crown.png" alt="Crown">GOV.UK
+          </a>
+        </div>
+        <div class="global-header__nav">
+          <div class="global-header__title alpha" id="headerLinkFAA"><a href="/employer/index.html">Employ an apprentice</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="content-container">
+      <div class="fixed-container">
+        <div class="banner-container">
+          <div class="phase-notice gov-border grid-wrapper">
+            <div class="grid grid-1-2">
+              <!-- ALPHA Phase banner START -->
+              <div class="prototype-warning">
+                <strong class="alpha__label">Alpha</strong>  <span>This is a prototype</span>
+              </div>
+              <!-- ALPHA Phase banner END -->
+            </div>
+            <div class="grid grid-1-2">
+              <div class="account-info sign-in" id="bannerSignedOut">
+                <div class="small-btm-margin">
+                  <a href="/employer/profile-signin.html?"><i class="fa fa-sign-in"></i>Sign in / Create account</a>
+                </div>
+              </div>
+              <div class="account-info sign-out" id="bannerSignedIn" style="display: none;">
+                <div class="small-btm-margin">
+                  <span class="your-name" id="bannerUserName">Malcolm Reynolds</span>
+                  <a href="/employer/profile-signin.html?Status=signout" id="btnSignOut"><i class="fa fa-sign-out"></i>Sign out</a>
+                </div>
+                <div>
+                  <a href="/employer/dashboard.html#dashDrafts" class="account-link toggle-content"
+                  id="savedHeaderItem"><span id="savedCount"></span> Saved</a>
+                  <a class="account-link" id="applicationsLink" href="/employer/dashboard.html?Updates=true">My account</a>
+                  <a class="account-link" href="/employer/settings.html" id="settingsLink">Settings</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <main role="main" id="main">
+        <script>
+        urlParam = function(name)
+        {
+          var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location
+            .href);
+          if (results == null)
+          {
+            return null;
+          }
+          else
+          {
+            return results[1] || 0;
+          }
+        }
+        $(function()
+        {
+          var $step1 = $('#viewProvidersStep1'),
+            $step2 = $('#viewProvidersStep2');
+          if (urlParam("Postcode"))
+          {
+            $step1.hide();
+            $step2.show();
+          }
+          else
+          {
+            $step2.hide();
+            $step1.show();
+          }
+        });
+        </script>
+        <style>
+        #viewProvidersStep1 {
+          display: none;
+        }
+        #viewProvidersStep2 {
+          display: none;
+        }
+        </style>
+        <div class="grid-wrapper">
+          <main role="main" class="grid grid-3-3">
+            <header class="hgroup-large section-border">
+              <h2 class="heading-large">Apprenticeships in legal services</h2>
+              <p class="font-xsmall"><a href="/employer/estimate-your-funding-step2.html">&laquo; Back to list</a>
+              </p>
+            </header>
+            <article>
+              <header>
+                <h3 class="heading-large"><a href="/employer/search-results-apprenticeship-details.html">Paralegal</a></h3>
+              </header>
+              <section class="grid-wrapper section-border">
+                <section class="grid grid-2-3 standard-parameters">
+                  <section>
+                    <p class="no-btm-margin">
+                      Level:
+                      <strong>3</strong>
+                      <em>(equivalent to A Level)</em>
+                    </p>
+                    <p class="no-btm-margin">
+                      Length:
+                      <strong>2 years</strong>
+                    </p>
+                    <p class="no-btm-margin">
+                      Average salary:
+                      <strong>&pound;14,000</strong> per annum
+                    </p>
+                    <p class="no-btm-margin">
+                      Estimated costs:
+                      <strong>&pound;27,000</strong> over 2 years
+                    </p>
+                  </section>
+                  <section class="panel-indent">
+                    <p><a href="#">Download full details (PDF, 268KB)</a>.</p>
+                  </section>
+                </section>
+                <section class="grid grid-1-3 standard-cta">
+                  <div id="viewProvidersStep1">
+                    <h3 class="heading-medium">Find training providers</h3>
+                    <form method="GET" action="../employer/search-results-apprenticeship-details.html">
+                      <fieldset class="">
+                        <div class="form-group">
+                          <label class="heading-small" for="Postcode">Postcode?</label>
+                          <span class="form-hint" id="PostcodeHint">We'll find providers close to where you're based</span>
+                          <input autofocus="" class="form-control" data-val="true" data-val-regex="'Keywords' contains some invalid characters"
+                          data-val-regex-pattern="^[a-zA-Z0-9]+$" id="Postcode"
+                          name="Postcode" type="text" value="">
+                        </div>
+                        <button type="submit" class="button">Search</button>
+                      </fieldset>
+                    </form>
+                  </div>
+                  <div id="viewProvidersStep2">
+                    <h3 class="heading-medium">Training providers</h3>
+                    <p>There are <strong>11</strong> training providers near <a href="../employer/search-results-apprenticeship-details.html">N13 5PP</a>
+                    </p>
+                    <a href="../employer/search-results-apprenticeship-standard-providers.html" class="button float-right-wrap">View</a>
+                  </div>
+                </section>
+              </section>
+              <section>
+                <section id="description">
+                  <h3 class="heading-medium">What does an actuarial technician do?</h3>
+                  <p>Actuarial technicians use statistics to predict how the finances
+                    of people and businesses will change. They carry out a number
+                    of jobs, from setting car insurance premiums to helping customers
+                    plan for retirement.</p>
+                  <p>They might be asked to:</p>
+                  <ul class="list-bullet">
+                    <li>check figures to make sure they’re accurate</li>
+                    <li>create spreadsheets and data models for reports</li>
+                    <li>understand hot topics that affect the industry</li>
+                    <li>support other members of the actuarial team</li>
+                    <li>test and develop new systems</li>
+                  </ul>
+                </section>
+                <section id="required-skills">
+                  <h3 class="heading-medium">What skills do actuarial technicians need?</h3>
+                  <p>Actuarial technicians need to be comfortable:</p>
+                  <ul class="list-bullet">
+                    <li>working with numbers</li>
+                    <li>meeting tight deadlines</li>
+                    <li>earning to use software quickly</li>
+                    <li>thinking logically</li>
+                    <li>dealing with clients</li>
+                    <li>paying attention to details</li>
+                  </ul>
+                </section>
+                <section id="apprenticeship-involves">
+                  <h3 class="heading-medium">What does the apprenticeship involve?</h3>
+                  <p>Apprentices work with teams of actuaries to build mathematical
+                    models.</p>
+                  <p>The programme is built around on-the-job training, but also involves
+                    studying for professional exams. It’s the start of a career
+                    in the industry.</p>
+                  <section class="panel-indent">
+                    <p><a href="#">Apprenticeship pay and holidays</a>.</p>
+                  </section>
+                </section>
+                <section id="entry-requirements">
+                  <h3 class="heading-medium">What are the entry requirements?</h3>
+                  <p>Employers can choose their own entry requirements.</p>
+                </section>
+                <section id="skills-apprentices-learn">
+                  <h3 class="heading-medium">What skills will apprentices learn?</h3>
+                  <p>Apprentices will learn skills including:</p>
+                  <ul class="list-bullet">
+                    <li>how actuarial software, technology and tools can be used</li>
+                    <li>the structure of the financial services market</li>
+                    <li>the industry’s professional requirements</li>
+                  </ul>
+                  <section class="panel-indent" class="section-border">
+                    <p>For a full list <a href="#">download the standard (PDF, 268KB)</a>.</p>
+                  </section>
+                </section>
+                <section id="english-and-math-requirements">
+                  <h3 class="heading-medium">What are the English and maths requirements?</h3>
+                  <p>Apprentices must have passed Level 2 English and maths before
+                    their final assessment, if they don’t have the qualifications
+                    already.</p>
+                </section>
+                <section id="timeframe">
+                  <h3 class="heading-medium">How long does the apprenticeship last?</h3>
+                  <p>The apprenticeship usually takes <strong>2-3 years</strong>.</p>
+                </section>
+                <section id="qualifications">
+                  <h3 class="heading-medium">What qualifications does the apprenticeship lead to?</h3>
+                  <p>This is a <a href="#">level 4 apprenticeship.</a>
+                  </p>
+                  <p>Apprentices who complete it also become members of the Institute
+                    and Faculty of Actuaries.</p>
+                </section>
+              </section>
+            </article>
+          </main>
+        </div>
+      </main>
+    </div>
+    <footer class="gov-border" role="contentinfo">
+      <div class="footer__wrapper">
+        <div class="footer__meta">
+          <ul class="footer__nav" role="navigation">
+            <li class="small-btm-margin"><a class="bold-medium" href="/apprentice/helpdesk.html">Contact us</a>
+            </li>
+            <li class="footer__link"><a href="/apprentice/privacy.html">Privacy and cookies</a>
+            </li>
+            <li class="footer__link"><a href="/apprentice/terms.html">Terms and conditions</a>
+            </li>
+            <li class="footer__link">Built by <a href="http://gov.uk/sfa" target="_blank">Skills Funding Agency</a>
+            </li>
+            <li class="footer__ogl hide-print"><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2"
+              class="ir ogl-logo">OGL</a>All content is available under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2">Open Government Licence v2.0</a>,
+              except where otherwise stated</li>
+          </ul>
+          <a class="footer__copyright" href="http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm"
+          target="_blank">
+            <img src="../_assets/img/govuk-crest-2x.png" width="125" height="102" alt="Crown copyright logo">
+            <p>&copy; Crown copyright</p>
+          </a>
+        </div>
+      </div>
+      <div class="toggle-content show-print">
+        <h3 class="heading-small">Contact the Skills Funding Agency helpdesk</h3>
+        <p class="small-btm-margin">Telephone (free): 0800 015 0400</p>
+        <p>Telephone (from mobiles): 02476 826482</p>
+      </div>
+    </footer>
+    <script src="../_assets/js/vendor/fastclick.js"></script>
+    <script src="../_assets/js/vendor/jquery.lazy-load-google-maps.js"></script>
+    <script src="../_assets/js/scripts.min.js"></script>
+    <script src="../_assets/js/vendor/jstorage.js"></script>
+    <!-- Prototype specific scripts -->
+    <script src="../_assets/js/vendor/jquery.cookie.js"></script>
+    <script src="../_assets/js/vendor/jquery.joyride-2.1.js"></script>
+    <script src="../_assets/js/prototype.js"></script>
+  </body>
+</html>

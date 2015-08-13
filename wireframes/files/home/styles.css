@@ -522,7 +522,7 @@
   top:220px;
   width:940px;
   height:300px;
-  font-size:28px;
+  font-size:48px;
   color:#CCCCCC;
   line-height:28px;
 }
@@ -547,7 +547,7 @@
   top:220px;
   width:929px;
   height:297px;
-  font-size:28px;
+  font-size:48px;
   color:#CCCCCC;
   line-height:28px;
 }
@@ -572,7 +572,7 @@
   top:220px;
   width:929px;
   height:297px;
-  font-size:28px;
+  font-size:48px;
   color:#CCCCCC;
   line-height:28px;
 }
@@ -597,7 +597,7 @@
   top:330px;
   width:253px;
   height:80px;
-  font-size:28px;
+  font-size:48px;
   color:#CCCCCC;
   line-height:28px;
 }
@@ -611,7 +611,7 @@
 #u47 {
   position:absolute;
   left:2px;
-  top:-2px;
+  top:26px;
   width:249px;
   word-wrap:break-word;
 }

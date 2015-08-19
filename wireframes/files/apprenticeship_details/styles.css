@@ -834,3 +834,25 @@
   width:220px;
   white-space:nowrap;
 }
+#u64 {
+  position:absolute;
+  left:785px;
+  top:262px;
+  width:165px;
+  height:22px;
+  font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';
+  font-weight:700;
+  font-style:normal;
+}
+#u65 {
+  position:absolute;
+  left:16px;
+  top:0px;
+  width:147px;
+  word-wrap:break-word;
+}
+#u64_input {
+  position:absolute;
+  left:-3px;
+  top:0px;
+}

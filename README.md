@@ -3,7 +3,7 @@ SFA Employer Routed Funding UI/Wireframe repository
 
 **[Prototype website](http://erfalphaui.azurewebsites.net/employer/index.html "Click to visit the website")**
 
-**[Wireframe website](http://erfalphawireframes.azurewebsites.net/employer/index.html "Click to visit the website")**
+**[Wireframe website](http://erfalphawireframes.azurewebsites.net "Click to visit the website")**
 
 
 Steps:

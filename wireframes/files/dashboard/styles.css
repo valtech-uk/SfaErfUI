@@ -8,10 +8,6 @@
   margin-right:auto;
   text-align:left;
 }
-.form_sketch {
-  border-color:transparent;
-  background-color:transparent;
-}
 #base {
   position:absolute;
   z-index:0;
@@ -25,10 +21,10 @@
 }
 #u1_img {
   position:absolute;
-  left:-2px;
-  top:-2px;
-  width:964px;
-  height:54px;
+  left:0px;
+  top:0px;
+  width:960px;
+  height:50px;
 }
 #u2 {
   position:absolute;
@@ -47,10 +43,10 @@
 }
 #u3_img {
   position:absolute;
-  left:-2px;
-  top:-2px;
-  width:944px;
-  height:14px;
+  left:0px;
+  top:0px;
+  width:940px;
+  height:10px;
 }
 #u4 {
   position:absolute;
@@ -92,10 +88,10 @@
 }
 #u7_img {
   position:absolute;
-  left:-2px;
-  top:-2px;
-  width:128px;
-  height:41px;
+  left:0px;
+  top:0px;
+  width:124px;
+  height:37px;
 }
 #u8 {
   position:absolute;
@@ -116,10 +112,10 @@
 }
 #u9_img {
   position:absolute;
-  left:-2px;
-  top:-2px;
-  width:254px;
-  height:32px;
+  left:0px;
+  top:0px;
+  width:250px;
+  height:28px;
 }
 #u10 {
   position:absolute;
@@ -152,9 +148,9 @@
 #u11_line {
   position:absolute;
   left:0px;
-  top:2px;
+  top:5px;
   width:940px;
-  height:6px;
+  height:1px;
 }
 #u12 {
   position:absolute;
@@ -166,10 +162,10 @@
 }
 #u12_img {
   position:absolute;
-  left:-2px;
-  top:-2px;
-  width:64px;
-  height:24px;
+  left:0px;
+  top:0px;
+  width:60px;
+  height:20px;
 }
 #u13 {
   position:absolute;
@@ -188,10 +184,10 @@
 }
 #u14_img {
   position:absolute;
-  left:-2px;
-  top:-2px;
-  width:449px;
-  height:22px;
+  left:0px;
+  top:0px;
+  width:445px;
+  height:18px;
 }
 #u15 {
   position:absolute;
@@ -210,10 +206,10 @@
 }
 #u16_img {
   position:absolute;
-  left:-2px;
-  top:-2px;
-  width:175px;
-  height:19px;
+  left:0px;
+  top:0px;
+  width:171px;
+  height:15px;
 }
 #u17 {
   position:absolute;
@@ -232,10 +228,10 @@
 }
 #u18_img {
   position:absolute;
-  left:-2px;
-  top:-2px;
-  width:504px;
-  height:59px;
+  left:0px;
+  top:0px;
+  width:500px;
+  height:55px;
 }
 #u19 {
   position:absolute;
@@ -268,7 +264,7 @@
 #u20_line {
   position:absolute;
   left:0px;
-  top:2px;
+  top:5px;
   width:940px;
-  height:6px;
+  height:1px;
 }
